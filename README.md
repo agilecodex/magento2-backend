@@ -4,6 +4,14 @@ Common Backend Extension for Magento 2
 <div id="documenter_content">
 
 <section id="installation">
+	<div class="page-header"><h3>Important notes</h3><hr class="notop"></div>
+	<ol> 
+		<li>Shared extension</li>
+		<li>Extension is compatible and supported for Magento versions 2.0 - 2.4.1.</li>
+	</ol>
+	</div>
+</section>
+<section id="installation">
 	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
 <p class="warning">
 	Never do anything directly on a live store. First setup and test on a development domain (i.e. “dev.url.com”).</p>

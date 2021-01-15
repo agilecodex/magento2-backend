@@ -1,3 +1,4 @@
+@acx_store_color: #FFF;
 #nav {
 li.item-agilecodex {
         > a {
@@ -11,4 +12,25 @@ li.item-agilecodex {
             }
         }
 }
+        .submenu {
+            .item-acx-helpcenter {
+                a {
+                    &:after {
+                        content: '\e633';
+                        font-family: 'Admin Icons';
+                        margin-left: 10px;
+                        vertical-align: baseline;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+}
+.admin__menu {
+    
+    //  This part hides Submenu Group Titles only for menus with single groups.
+    .submenu .column:only-of-type .submenu-group-title,
+    .level-0 > .submenu > ul > .level-1:only-of-type > .submenu-group-title {
+        display: block !important;
+    }
 }

@@ -10,6 +10,7 @@
         <resources>
             <resource id="Magento_Backend::admin" >
                 <resource id="Acx_Backend::AgileCodex" title="AgileCodex" sortOrder="20" />
+                <resource id="Acx_Backend::Acx_HelpCenter" title="AgileCodex HelpCenter" sortOrder="22" />
             </resource>
         </resources>
     </acl>

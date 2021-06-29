@@ -6,6 +6,7 @@
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="google.com" type="host">*.google.com</value>
+                <value id="google.com.bd" type="host">*.google.com.bd</value>
                 <value id="google.co.in" type="host">*.google.co.in</value>
                 <value id="facebook.com" type="host">*.facebook.com</value>
                 <value id="googleadservices" type="host">*.googleadservices.com</value>
@@ -50,7 +51,9 @@
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="gstatic" type="host">*.gstatic.com</value>
                 <value id="google.com" type="host">*.google.com</value>
+                <value id="googlesyndication.com" type="host">*googlesyndication.com</value>
                 <value id="google.co.in" type="host">*.google.co.in</value>
+                <value id="googlesyndication.com" type="host">*.googlesyndication.com</value>
                 <value id="facebook.com" type="host">https://www.facebook.com</value>
                 <value id="klarna-base" type="host">*.klarna.com</value>
                 <value id="googleadservices" type="host">*.googleadservices.com</value>
@@ -61,7 +64,7 @@
                 <value id="vimeocdn" type="host">*.vimeocdn.com</value>
                 <value id="youtube-img" type="host">*.ytimg.com</value>
                 <value id="data" type="host">'self' data:</value>
-                <value id="lightemporium" type="host">*.lightemporium.com</value>                
+                <value id="lightemporium" type="host">*.lightemporium.com</value>
                 <value id="usercentrics" type="host">*.usercentrics.eu</value>
                 <value id="connect-base" type="host">*.connect.facebook.net</value>
                 <value id="stats-doubleclick" type="host">https://stats.g.doubleclick.net</value>

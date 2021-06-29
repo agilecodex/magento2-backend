@@ -10,6 +10,13 @@
                     <report_uri>http://example.com/</report_uri>
                 </admin>
             </mode>
+            <policies>
+                <storefront>
+                    <frame-ancestors>
+                        <inline>0</inline>
+                    </frame-ancestors>
+                </storefront>
+            </policies>
         </csp>
     </default>
 </config>

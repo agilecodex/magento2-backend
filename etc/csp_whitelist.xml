@@ -3,6 +3,8 @@
     <policies>
         <policy id="script-src">
             <values>
+                <value id="adobedtm" type="host">assets.adobedtm.com</value>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="google.com" type="host">*.google.com</value>
@@ -30,6 +32,7 @@
         </policy>
         <policy id="style-src">
             <values>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="googleapis" type="host">*.googleapis.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
@@ -48,6 +51,11 @@
         </policy>
         <policy id="img-src">
             <values>
+                <value id="adobedtm" type="host">assets.adobedtm.com</value>
+                <value id="omtrdc" type="host">amcglobal.sc.omtrdc.net</value>
+                <value id="dpmdemdex" type="host">dpm.demdex.net</value>
+                <value id="everesttech" type="host">cm.everesttech.net</value>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="gstatic" type="host">*.gstatic.com</value>
                 <value id="google.com" type="host">*.google.com</value>
@@ -95,6 +103,8 @@
         </policy>
         <policy id="connect-src">
             <values>
+                <value id="dpmdemdex" type="host">dpm.demdex.net</value>
+                <value id="omtrdc" type="host">amcglobal.sc.omtrdc.net</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>
@@ -102,6 +112,11 @@
                 <value id="google.com" type="host">*.google.com</value>
                 <value id="google.co.in" type="host">*.google.co.in</value>
                 <value id="facebook.com" type="host">*.facebook.com</value>
+            </values>
+        </policy>
+        <policy id="media-src">
+            <values>
+                <value id="adobe" type="host">*.adobe.com</value>
             </values>
         </policy>
         <policy id="font-src">
@@ -119,16 +134,16 @@
                 <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
             </values>
         </policy>
-
         <policy id="frame-src">
             <values>
+                <value id="amcdemdex" type="host">fast.amc.demdex.net</value>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="google.com" type="host">https://www.google.com</value>
                 <value id="google.co.in" type="host">https://www.google.co.in</value>
                 <value id="facebook.com" type="host">https://www.facebook.com</value>
             </values>
         </policy>
-
         <policy id="form-action">
             <values>
                 <value id="twitter.com" type="host">*.twitter.com</value>

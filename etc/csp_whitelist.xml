@@ -3,6 +3,8 @@
     <policies>
         <policy id="script-src">
             <values>
+                <value id="adobedtm" type="host">assets.adobedtm.com</value>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="google.com" type="host">*.google.com</value>
@@ -30,6 +32,7 @@
         </policy>
         <policy id="style-src">
             <values>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="googleapis" type="host">*.googleapis.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
@@ -48,6 +51,8 @@
         </policy>
         <policy id="img-src">
             <values>
+                <value id="adobedtm" type="host">assets.adobedtm.com</value>
+                <value id="adobe" type="host">*.adobe.com</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="gstatic" type="host">*.gstatic.com</value>
                 <value id="google.com" type="host">*.google.com</value>
@@ -95,6 +100,8 @@
         </policy>
         <policy id="connect-src">
             <values>
+                <value id="dpmdemdex" type="host">dpm.demdex.net</value>
+                <value id="omtrdc" type="host">amcglobal.sc.omtrdc.net</value>
                 <value id="cloudflare" type="host">*.cloudflare.com</value>
                 <value id="twitter.com" type="host">*.twitter.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>

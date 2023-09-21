@@ -1,5 +1,5 @@
 {
-    "name": "acx/m2-backend",
+    "name": "acx/module-backend",
     "description": "AgileCodex Backend Module",
     "require": {
         "magento/module-admin-notification": "100.*|101.*"

@@ -1,12 +1,5 @@
 <?php
 /**
- * AgileCodex
- * NOTICE OF LICENSE
- *
- * This source file is subject to the agilecodex.com license that is
- * available through the world-wide-web at this URL:
- * https://www.agilecodex.com/license-agreement
- *
  * @copyright   Copyright (c) AgileCodex (https://www.agilecodex.com/)
  * @license     https://www.agilecodex.com/license-agreement
  */
